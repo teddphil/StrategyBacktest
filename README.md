@@ -28,5 +28,5 @@ This project demonstrates the core mechanics of a trading backtest — data load
 
 ## Usage
 
-Compile: `javac *.java`
-Run: `java Main`
+* Compile: `javac *.java`
+* Run: `java Main`
