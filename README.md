@@ -1,10 +1,10 @@
 # Java Strategy Backtesting Framework
 
-A simple, extensible Java-based backtesting engine for evaluating rule-based trading strategies on historical price data.
+### Overview
+A Java-based backtesting engine for evaluating rule-based trading strategies on historical price data.
 The project includes data loading, signal generation, position management, and PnL calculation using a moving average crossover strategy.
 
-
-#### Features
+### Features
 
 - Clean separation between strategy logic and backtesting engine.
 - Pluggable strategy interface for rapid experimentation.
@@ -12,8 +12,7 @@ The project includes data loading, signal generation, position management, and P
 - Trade-by-trade logging with entry, exit, and PnL.
 - CSV-based price input for easy experimentation.
 
-
-#### Structure
+### Structure
 
 ```text
 .
@@ -24,8 +23,3 @@ The project includes data loading, signal generation, position management, and P
 ├── MovingAverageCrossStrategy.java
 └── prices.csv               # Sample historical prices
 ```
-
-#### Usage
-
-* Compile: `javac *.java`
-* Run: `java Main`
