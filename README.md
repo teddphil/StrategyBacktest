@@ -4,7 +4,6 @@ A simple, extensible Java-based backtesting engine for evaluating *rule-based tr
 
 This project demonstrates the core mechanics of a trading backtest — data loading, signal generation, position management, and PnL calculation — using a *moving average crossover* strategy as an example.
 
----
 
 ## Features
 
@@ -14,9 +13,8 @@ This project demonstrates the core mechanics of a trading backtest — data load
 - Trade-by-trade logging with entry, exit, and PnL
 - CSV-based price input for easy experimentation
 
----
 
-## Project Structure
+## Structure
 
 ```text
 .
@@ -27,8 +25,6 @@ This project demonstrates the core mechanics of a trading backtest — data load
 ├── MovingAverageCrossStrategy.java
 └── prices.csv               # Sample historical prices
 ```
-
----
 
 ## Usage
 
